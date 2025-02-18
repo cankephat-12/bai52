@@ -1,0 +1,19 @@
+.tieude{
+    font-size: 30px;
+    font-weight: bold;
+}
+table, tr , th , td{
+    border: 1px solid black;
+    font-weight: bold;
+    text-align: center;
+}
+#th{
+    background-color: aqua;
+}
+#td{
+    background-color: yellow;
+}
+.noidung{
+    font-size: 25px;
+    font-weight: bold;
+}
