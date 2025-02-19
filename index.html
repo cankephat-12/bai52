@@ -8,24 +8,68 @@
 </head>
 <body>
     <h1 style="color: red;">Bài 52: CSS Units Explained Tổng quan và chi tiết về pixel và % Absolute Lengths Relative Lengths</h1> <hr>
-    <p class="tieude">Đơn vị tuyệt đối - Absolute Legenths:</p>
-    <p class="noidung">Pixel-Picture Element (thành phần hình ảnh)- điểm ảnh là đơn vị cơ bản để đo kích thước 1 hình ảnh kỹ thuật số.</p>
     <table style="width: 100%;">
-            <tr id="th">
-                <th>STT</th>
-                <th>Unit</th>
-                <th>Ví dụ</th>
-                <th>Ý nghĩa</th>
-            </tr>
-            <tr id="td">
-                <td>1.</td>
-                <td>px</td>
-                <td>100px</td>
-                <td>pixel</td>
-            </tr>
-    </table>
+        <tr id="th">
+            <th>STT</th>
+            <th>Unit</th>
+            <th>Ví dụ</th>
+            <th>Ý nghĩa</th>
+        </tr>
+        <tr id="td">
+            <td>1.</td>
+            <td>px</td>
+            <td>100px</td>
+            <td>pixel</td>
+        </tr>
+        <tr id="td">
+            <td>2.</td>
+            <td>%</td>
+            <td>12%</td>
+            <td>Kích thước bằng 12% so với phần tử cha</td>
+        </tr>
+        <tr id="td">
+            <td>3.</td>
+            <td>vw</td>
+            <td>50vw</td>
+            <td>50% chiều rộng khung nhìn ( viewport-phần hiển thị trên browser)</td>
+        </tr>
+        <tr id="td">
+            <td>4.</td>
+            <td>vh</td>
+            <td>20vh</td>
+            <td>20% chiều cao khung nhìn ( viewport-phần hiển thị trên browser)</td>
+        </tr>
+        <tr id="td">
+            <td>5.</td>
+            <td>em</td>
+            <td>2em</td>
+            <td>Kích thước gấp 2 lần font chữ hiện tại (có kế thừa)</td>
+        </tr>
+        <tr id="td">
+            <td>6.</td>
+            <td>rem</td>
+            <td>3rem</td>
+            <td>Kích thước gấp 3 lần font chữ root element(không kế thừa)</td>
+        </tr>
+</table>
+    <p class="tieude">1.Đơn vị tuyệt đối - Absolute Legenths:</p>
+    <p class="noidung">Pixel-Picture Element (thành phần hình ảnh)- điểm ảnh là đơn vị cơ bản để đo kích thước 1 hình ảnh kỹ thuật số.</p>
+    <p class="luuy">Lưu ý : khi dùng đơn vị tuyệt đối, thì nếu người dùng thay đổi cài đặt trên trình duyệt, các kích thước vẫn giữ nguyên không đổi.</p>
     <img src="img/anh3.png" alt="anh3" width="900px">
     <img src="img/anh1.png" alt="anh1" width="900px">
     <img src="img/anh2.png" alt="anh2" width="900px">
+    <p class="tieude">2.Đơn vị tương đối-Relative Lengths:</p>
+    <p class="luuy">Nếu thẻ cha không có kích thước thì sẽ lấy kích thước mặc định của trình duyệt. Ví dụ font-size mặc định của trình duyệt thường =16px</p>
+    <img src="img/anh4.png" alt="anh4" width="900px">
+    <img src="img/anh5.png" alt="anh5" width="900px">
+    <p class="tieude">3.Đơn vị tương đối-em</p>
+    <p class="noidung">browser foont-size default: thông thường là 16px</p>
+    <p class="noidung"> Th1. thẻ cha và thẻ con không có font-size -> lấy kích thước từ font-size của root(html)</p>
+    <img src="img/anh6.png" alt="anh6" width="900px">
+    <p class="noidung">Th2. thẻ cha có font-size tuyệt đối</p>
+    <img src="img/anh7.png" alt="anh7" width="900px">
+    <p class="noidung">4. rem: Kích thước phụ thuộc vào font-size thẻ html(root Element)</p>
+    <img src="img/anh8.png" alt="anh8" width="900px">
+    <img src="img/anh9.png" alt="anh9" width="900px">
 </body>
 </html>

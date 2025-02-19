@@ -17,3 +17,9 @@ table, tr , th , td{
     font-size: 25px;
     font-weight: bold;
 }
+.luuy{
+    color: red;
+    font-size: 25px;
+    text-decoration-line: underline;
+    font-weight: bold;
+}
